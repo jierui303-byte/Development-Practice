@@ -1,2 +1,2 @@
-# shellPractice
-shellshell脚本练习
+# C-Shell-Practic 
+C-Shell-Practice 脚本练习
