@@ -16,6 +16,7 @@ int main(int argc, char *argv[])
     socklen_t peerlen;
     char buf[BUFFER_SIZE];
 
+    //判断命令行输入的参数个数是不是3个
     if (argc < 3) 
     {
         printf("Usage: %s <ip> <port> \n", argv[0]);
@@ -47,5 +48,5 @@ int main(int argc, char *argv[])
     printf("bind success! \n");
 
     //调用listen()函数，设置监听模式
-    
+
 }
